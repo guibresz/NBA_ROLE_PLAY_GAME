@@ -1,0 +1,18 @@
+@font-face{
+    font-family: 'usa';
+    src: url('usa.ttf');
+}
+
+
+body{
+    background-image: url('nba.jpg');
+    background-size: 100%;
+}
+
+.titre{
+   background-image: url('parquet.jpg');
+   background-size: 100%;
+   margin-right: 62%;
+   font-size:350%;
+   font-family: 'usa';
+}
