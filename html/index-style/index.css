@@ -69,4 +69,14 @@ a:hover {
    left: 73%;
 }
 
+.regle{
+   background-image: url('parquet.jpg');
+   background-size: 100%;
+   margin-right: 100%;
+   font-size:300%;
+   font-family: 'usa';
+   position: absolute;
+   top: 80%;
+   left: 10%;
+}
 
