@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ajouter un joueur</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form action="../php/ajout_bdd.php"  method="POST">
+		
+		<div>
+			<label>Nom du joueur</label>
+			<input type="texte" name="nom" required>
+		</div><br>
+		<div>
+			<label>Categorie</label>
+			<input type="texte" name="categorie" required>
+		</div><br>
+
+		<div>
+			<label>tir</label>
+			<input type="number" name="tir" required>
+		</div><br>
+		
+		<div>
+			<label>rebond</label>
+			<input type="number" name="rebond" required>
+		</div><br>
+
+		<div>
+			<label>passe</label>
+			<input type="number" name="passe" required>
+		</div><br>
+
+		<div>
+			<label>interception</label>
+			<input type="number" name="interception" required>
+		</div><br>
+
+		<div>
+			<label>contre</label>
+			<input type="number" name="contre" required>
+		</div><br>
+
+		<div>
+			<label>vitesse</label>
+			<input type="number" name="vitesse" required>
+		</div><br>
+	<div>
+			<label>tir à 3 points</label>
+			<input type="number" name="tir_3_points" required>
+		</div><br>
+
+	<input type="submit" name="button">
+	</form>
+
+
+</body>
+</html>
+
