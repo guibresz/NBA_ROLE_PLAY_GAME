@@ -8,9 +8,13 @@ body{
     background-image: url('nba.jpg');
     background-size: 100%;
 }
+p{
+   color: #8C025B;
+   
+}
 
 a{
-   color: white;
+   color: #8C025B;
    text-decoration: none;
 }
 
@@ -22,17 +26,27 @@ a:hover {
   background-color: blue;
 }
 
-.titre{
+li{
+   display: inline;
+}
+
+.onglet{
+   margin-top: 4%;
+   margin-left: 5%;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   padding-left: 1%;
+   padding-right: 1%;
+   top: 200px;
    background-image: url('parquet.jpg');
    background-size: 100%;
    margin-right: 55%;
    font-size:350%;
    font-family: 'usa';
-   position: absolute;
-   top: 10%;
-   left: 5%;
    border-radius: 15%;
+   display: inline-block;
 }
+
 
 .jouer{
    background-image: url('parquet.jpg');
@@ -41,42 +55,12 @@ a:hover {
    font-size:350%;
    font-family: 'usa';
    position: absolute;
-   top: 50%;
+   top: 45%;
    left: 53%;
-   border-radius: 35%;
-}
-
-
-.chercher{
-   background-image: url('parquet.jpg');
-   background-size: 100%;
-   margin-right: 100%;
-   font-size:300%;
-   font-family: 'usa';
-   position: absolute;
-   top: 25%;
-   left: 73%;
-}
-
-.ajouter{
-   background-image: url('parquet.jpg');
-   background-size: 100%;
-   margin-right: 100%;
-   font-size:300%;
-   font-family: 'usa';
-   position: absolute;
-   top: 60%;
-   left: 73%;
-}
-
-.regle{
-   background-image: url('parquet.jpg');
-   background-size: 100%;
-   margin-right: 100%;
-   font-size:300%;
-   font-family: 'usa';
-   position: absolute;
-   top: 80%;
-   left: 10%;
+   border-radius: 100%;
+   padding-top: 3%;
+   padding-bottom: 3%;
+   padding-left: 1%;
+   padding-right: 1%;
 }
 
